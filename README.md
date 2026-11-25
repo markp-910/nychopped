@@ -7,3 +7,6 @@ Coming-soon site for NYChopped — an elevated New York chopped cheese food truc
 - Sign-up form: Formspree (endpoint set in `data-endpoint` on the form in `index.html`)
 
 Plain static HTML — no build step.
+
+## Editing
+Push to `main` → Cloudflare Pages redeploys nychopped.com automatically in ~1 minute.
