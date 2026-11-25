@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYChopped | Chopped Cheese, Fries &amp; Shakes | Coming Soon to Michigan</title>
+<meta name="description" content="New York's chopped cheese, done the elevated way. A Michigan food truck, coming soon. Get on the list.">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nychopped.com/">
+<meta property="og:title" content="NYChopped | Coming Soon to Michigan">
+<meta property="og:description" content="New York's chopped cheese, done the elevated way. Chopped Cheese, Fries, Shakes.">
+<meta property="og:image" content="https://nychopped.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#000;color:#fff;font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:#fff;text-decoration:none}
+  a:hover{color:#bdbdbd}
+  img{display:block}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+  .eyebrow{margin:0;font-size:13px;letter-spacing:6px;text-transform:uppercase;font-weight:600;color:#7a7a7a}
+  .muted{color:#a3a3a3}
+  .rule{border-top:1px solid #222}
+  .btn{display:inline-block;border-radius:999px;font-weight:600;font-size:16px;padding:18px 34px;font-family:inherit;cursor:pointer}
+  .btn-solid{background:#fff;color:#000;border:0}
+  .btn-solid:hover{background:#d9d9d9;color:#000}
+  .btn-line{border:1px solid #fff;padding:12px 22px;font-size:14px}
+  .btn-line:hover{background:#fff;color:#000}
+
+  header .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:28px}
+  header nav{display:flex;flex-wrap:wrap;gap:28px;align-items:center;font-size:14px;font-weight:500;letter-spacing:.5px}
+
+  .hero{max-width:1000px;margin:0 auto;padding:120px 24px 140px;display:flex;flex-direction:column;align-items:center;gap:40px;text-align:center}
+  .hero img{width:100%;max-width:820px;height:auto}
+  .hero .eyebrow{color:#fff}
+  .hero p.lead{margin:0;max-width:560px;font-size:19px;line-height:1.6}
+
+  .split{display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start;padding-top:120px;padding-bottom:120px}
+  .split > div{flex:1 1 420px;min-width:0}
+  h2{margin:0;font-weight:700;letter-spacing:-1px;line-height:1.08;font-size:clamp(36px,4.6vw,56px)}
+  .story p{margin:0 0 20px;font-size:18px;line-height:1.7}
+  .quote{margin:8px 0 28px;padding:0;font-size:clamp(24px,2.6vw,32px);line-height:1.3;font-weight:600;letter-spacing:-.5px;color:#fff}
+  .crew{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+
+  .menu{padding-top:120px;padding-bottom:120px;display:flex;flex-direction:column;gap:56px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:#222;border:1px solid #222}
+  .grid > div{background:#000;padding:40px 32px}
+  .grid h3{margin:0 0 14px;font-size:26px;font-weight:700;letter-spacing:-.5px}
+  .grid p{margin:0;font-size:16px;line-height:1.65}
+
+  .signup{max-width:720px;margin:0 auto;padding:120px 24px;display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center}
+  .signup p{margin:0;max-width:520px;font-size:18px;line-height:1.6}
+  form{width:100%;max-width:600px;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:8px}
+  input{min-width:0;background:#000;border:1px solid #3a3a3a;border-radius:999px;padding:18px 24px;font-size:16px;color:#fff;font-family:inherit}
+  input:focus{outline:none;border-color:#fff}
+  input::placeholder{color:#7a7a7a}
+  #email{flex:2 1 260px}
+  #zip{flex:1 1 140px}
+  form button{flex:1 1 100%}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .thanks{display:none;margin:8px 0 0;border:1px solid #3a3a3a;border-radius:999px;padding:18px 32px;font-size:16px}
+  .error{display:none;color:#ff8a8a;font-size:14px}
+
+  footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:40px;padding-bottom:40px;font-size:13px;color:#7a7a7a}
+  footer a{color:#7a7a7a}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#top" aria-label="NYChopped home"><img src="/logo-script.png" alt="NYChopped" style="height:44px;width:auto"></a>
+    <nav>
+      <a href="#story">Our Story</a>
+      <a href="#list" class="btn btn-line">Get on the list</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="top" class="hero">
+    <img src="/logo-full.png" alt="NYChopped: Chopped Cheese, Fries, Shakes" width="1304" height="397">
+    <div style="display:flex;flex-direction:column;align-items:center;gap:18px">
+      <p class="eyebrow">Coming soon · Michigan</p>
+      <p class="lead muted">New York's chopped cheese, done the elevated way, on a food truck near you.</p>
+    </div>
+    <a href="#list" class="btn btn-solid">Be first in line</a>
+  </section>
+
+  <section id="story" class="rule">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow" style="margin-bottom:20px">Our Story</p>
+        <h2>We went to New York.<br>We came back obsessed.</h2>
+      </div>
+      <div class="story muted">
+        <p>It started as a family trip. Tony jumped in at the last minute, because why not fly to New York on a whim to be with friends and family? Somewhere along the way we walked into a little shop in Greenwich Village and ordered a chopped cheese.</p>
+        <blockquote class="quote">“Wow, this is the best sandwich I've ever had. Detroit needs this ASAP.”</blockquote>
+        <p>That was the whole meeting. The decision was made before the sandwich was gone.</p>
+        <p>We're starting with a food truck so we can find the best spots, meet the people and build a following one sandwich at a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rule">
+    <div class="wrap menu">
+      <p class="eyebrow">How we do it</p>
+      <h2 style="max-width:760px">Elevated, not expensive.</h2>
+      <div class="grid">
+        <div><h3>Michigan sourced</h3><p class="muted">We're working with Michigan suppliers for our beef, bread and produce, so it tastes like New York and helps out folks close to home.</p></div>
+        <div><h3>No seed oils</h3><p class="muted">Nothing on our menu is cooked in seed oils. Just better ingredients cooked the right way.</p></div>
+        <div><h3>Fair prices</h3><p class="muted">Better food shouldn't cost an arm and a leg. A great sandwich should be an everyday thing.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rule">
+    <div class="wrap menu">
+      <p class="eyebrow">The Crew</p>
+      <div class="grid crew">
+        <div><h3>Tony</h3><p class="muted">Foodie and world traveler. The last-minute addition to the trip that started it all.</p></div>
+        <div><h3>Mark</h3><p class="muted">A restaurant lifer who went from server to GM to operator, and is now an owner and investor. Also a corporate executive and a lifelong foodie.</p></div>
+        <div><h3>Dylan</h3><p class="muted">Commercial real estate broker, foodie and die-hard hustler.</p></div>
+        <div><h3>Marcus</h3><p class="muted">Cali born and raised. He loves good food and the trips it takes to find it.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rule">
+    <div class="wrap menu">
+      <p class="eyebrow">The Menu, coming soon</p>
+      <div class="grid">
+        <div><h3>Chopped Cheese</h3><p class="muted">Beef seared and chopped on the flat-top, melted cheese folded through, piled on a toasted hero.</p></div>
+        <div><h3>Fries</h3><p class="muted">Crisp, golden and made to share. Or not.</p></div>
+        <div><h3>Shakes</h3><p class="muted">Thick, cold, hand-spun. The only way to finish.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="list" class="rule">
+    <div class="signup">
+      <h2>Get on the list.</h2>
+      <p class="muted">Launch date, first stops and early-subscriber perks. Tell us your ZIP and we'll know where to park first.</p>
+      <!-- FORM_ENDPOINT: set data-endpoint to your form service URL (e.g. https://formspree.io/f/xxxxxxx) -->
+      <form id="signup" data-endpoint="https://formspree.io/f/xaeoakge" novalidate>
+        <label for="email" class="sr">Email address</label>
+        <input id="email" name="email" type="email" required placeholder="Email address" autocomplete="email">
+        <label for="zip" class="sr">ZIP code</label>
+        <input id="zip" name="zip" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="ZIP code" autocomplete="postal-code">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="sr" aria-hidden="true">
+        <button type="submit" class="btn btn-solid">Notify me</button>
+      </form>
+      <p class="error" id="err" role="alert">Something went wrong. Please try again.</p>
+      <p class="thanks" id="thanks" role="status">You're on the list. See you at the window.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="rule">
+  <div class="wrap">
+    <img src="/logo-script.png" alt="NYChopped" style="height:32px;width:auto">
+    <span>Michigan · <a href="mailto:hello@nychopped.com">hello@nychopped.com</a></span>
+    <span>© <span id="yr">2026</span> NYChopped</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const form = document.getElementById('signup');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = form.email;
+    if (!email.value || !email.checkValidity()) { email.focus(); email.style.borderColor = '#ff8a8a'; return; }
+    const btn = form.querySelector('button'); btn.disabled = true; btn.textContent = 'Saving…';
+    const endpoint = form.dataset.endpoint;
+    try {
+      if (endpoint) {
+        const res = await fetch(endpoint, { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) });
+        if (!res.ok) throw new Error('bad status');
+      }
+      form.style.display = 'none';
+      document.getElementById('err').style.display = 'none';
+      document.getElementById('thanks').style.display = 'block';
+    } catch (_) {
+      document.getElementById('err').style.display = 'block';
+      btn.disabled = false; btn.textContent = 'Notify me';
+    }
+  });
+</script>
+</body>
+</html>
